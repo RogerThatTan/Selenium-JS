@@ -1,0 +1,19 @@
+{
+  "name": "selenium-js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/ --no-timeouts --parallel"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "chai": "^5.2.0",
+    "mocha": "^11.5.0",
+    "selenium-webdriver": "^4.33.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.5.3"
+  }
+}
