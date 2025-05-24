@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "mocha tests/ --no-timeouts --parallel"
+    "test": "mocha tests/ --no-timeouts --parallel --reporter mochawesome --require mochawesome/register --reporter-options reportDir=C:/Users/xtanv/OneDrive/Desktop/Selenium-JS/testReports,reportFilename=report"
   },
   "author": "",
   "license": "ISC",
@@ -11,6 +11,7 @@
   "dependencies": {
     "chai": "^5.2.0",
     "mocha": "^11.5.0",
+    "mochawesome": "^7.1.3",
     "selenium-webdriver": "^4.33.0"
   },
   "devDependencies": {
